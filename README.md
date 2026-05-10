@@ -11,7 +11,7 @@ This curriculum is structured to bridge the gap between high-level development a
 
 ## 🗺️ The 10-Phase Low-Level Curriculum (32 Missions Tracker)
 
-### 📂 Phase 1: Basics & Control Flows — 🟢 75% Completed
+### 📂 Phase 1: Basics & Control Flows — 🟢 83% Completed
 Focusing on standard input/output, conditionals, nested loops, binary and modular arithmetic, input validation, and early returns.
 
 - [x] **Mission 1: Hello & Input** (Basic I/O, `std::string`, terminal g++ build)
@@ -23,7 +23,7 @@ Focusing on standard input/output, conditionals, nested loops, binary and modula
 - [x] **Mission 7: String Reversal** (String indexing, memory sequence, `.length()` analysis)
 - [x] **Mission 8: N-Number Statistics** (`std::vector` dynamic arrays, statistics calculator)
 - [x] **Mission 9: FizzBuzz** (Classic modular logic flow)
-- [ ] **Mission 10: Star Pyramid** (Nested loops visual formatting)
+- [x] **Mission 10: Star Pyramid** (Nested loops visual formatting)
 - [ ] **Mission 11: Rock-Paper-Scissors** (Type-safe `enum class` state management)
 - [ ] **Mission 12: Word/Line Counter** (File parser using `std::ifstream` & `std::getline`)
 
