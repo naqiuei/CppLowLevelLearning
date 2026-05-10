@@ -1,12 +1,12 @@
 #include <iostream>
 
-int pow(int a, int b) {
-  int x{1};
-  for (; b > 0; b--) {
-    x *= a;
-  }
-  return x;
-}
+// int pow(int a, int b) {
+//   int x{1};
+//   for (; b > 0; b--) {
+//     x *= a;
+//   }
+//   return x;
+// } // I wrote this because i thought that i ll need this.
 
 int reverse(int number) {
   int reversed{0};
