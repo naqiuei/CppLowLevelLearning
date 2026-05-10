@@ -9,94 +9,120 @@ This curriculum is structured to bridge the gap between high-level development a
 
 ---
 
-## 🗺️ The 10-Phase Low-Level Curriculum (32 Missions Tracker)
+## 🗺️ The 12-Phase Low-Level Curriculum (46 Missions Tracker)
 
 ### 📂 Phase 1: Basics & Control Flows — 🟢 91% Completed
-Focusing on standard input/output, conditionals, nested loops, binary and modular arithmetic, input validation, and early returns.
+*Standard I/O, conditionals, nested loops, modular arithmetic, input validation.*
 
-- [x] **Mission 1: Hello & Input** (Basic I/O, `std::string`, terminal g++ build)
-- [x] **Mission 2: Guess The Number** (Do-while loops, `<random>` generator, logic control)
-- [x] **Mission 3: Multiplication Table** (Nested loops, uniform brace initialization)
-- [x] **Mission 4: Simple Calculator** (Switch-case break/fall-through prevention, division-by-zero check)
-- [x] **Mission 5: Prime Number Checker** (Custom functions, Early Return pattern, guard clauses)
-- [x] **Mission 6: Number Reversal** (Digit extraction via `% 10` and `/ 10`, shifting-and-appending, custom mathematically-correct `pow()`)
-- [x] **Mission 7: String Reversal** (String indexing, memory sequence, `.length()` analysis)
-- [x] **Mission 8: N-Number Statistics** (`std::vector` dynamic arrays, statistics calculator)
-- [x] **Mission 9: FizzBuzz** (Classic modular logic flow)
-- [x] **Mission 10: Star Pyramid** (Nested loops visual formatting)
-- [x] **Mission 11: Rock-Paper-Scissors** (Type-safe `enum class` state management)
-- [ ] **Mission 12: Word/Line Counter** (File parser using `std::ifstream` & `std::getline`)
+- [x] **Mission 1: Hello & Input** (Basic I/O, `std::string`, terminal build)
+- [x] **Mission 2: Guess The Number** (do-while loops, `<random>` generator)
+- [x] **Mission 3: Multiplication Table** (nested loops, uniform brace initialization)
+- [x] **Mission 4: Simple Calculator** (switch-case, division-by-zero guard)
+- [x] **Mission 5: Prime Number Checker** (custom functions, early return pattern)
+- [x] **Mission 6: Number Reversal** (digit extraction via `% 10` and `/ 10`, custom pow())
+- [x] **Mission 7: String Reversal** (string indexing, `.length()`, `back()`/`pop_back()`)
+- [x] **Mission 8: N-Number Statistics** (`std::vector`, incremental min/max/avg)
+- [x] **Mission 9: FizzBuzz** (modular logic, condition ordering)
+- [x] **Mission 10: Star Pyramid** (nested loops, centering formula 2i-1)
+- [x] **Mission 11: Rock-Paper-Scissors** (`enum class`, `static_cast`, `mt19937`)
+- [ ] **Mission 12: Word/Line Counter** (`std::ifstream`, `std::getline`, file parsing)
 
 ---
 
 ### 📂 Phase 2: Pointers, References & Memory Management — ⚪ Not Started
-Demystifying physical memory addresses, stack vs. heap allocation, and safe pointer usage.
+*Physical memory addresses, stack vs. heap allocation, raw pointer ownership.*
 
-- [ ] **Mission 13: Pointer Swap & Mutators** (Manipulating variables across stack frames using pointer dereferencing)
-- [ ] **Mission 14: Dynamic Array Allocator** (Allocating dynamic memory arrays using `new` and `delete[]` based on dynamic runtime sizes)
-- [ ] **Mission 15: Memory Leak Finder Simulator** (Creating intentional memory leaks on the Heap, then tracking and resolving them)
+- [ ] **Mission 13: Pointer Swap & Mutators** (pointer dereferencing, pass-by-pointer vs pass-by-reference)
+- [ ] **Mission 14: Dynamic Array Allocator** (`new[]`, `delete[]`, runtime sizing, reallocation)
+- [ ] **Mission 15: Memory Leak Finder Simulator** (intentional heap leaks, AddressSanitizer, Valgrind)
+- [ ] **Mission 16: Linked List — Single & Double** (raw pointer chaining, manual node cleanup, ownership)
 
 ---
 
-### 📂 Phase 3: Object-Oriented Programming (OOP) & Memory Layout — ⚪ Not Started
-Building modular class systems and auditing how objects are mapped inside physical RAM bytes.
+### 📂 Phase 3: Object-Oriented Programming & Memory Layout — ⚪ Not Started
+*Class design, encapsulation, operator overloading, physical struct layout in RAM.*
 
-- [ ] **Mission 16: RPG Character Class Hierarchy** (Constructing class inheritance trees with polymorphism)
-- [ ] **Mission 17: Class Memory Layout Auditor** (Calculating physical member offsets and investigating compiler struct-padding alignments via `sizeof` and offset pointer math)
-- [ ] **Mission 18: Account Encapsulation Guard** (Securing sensitive data inside objects using access specifiers and deep-copy mechanics)
+- [ ] **Mission 17: Date/Time Class** (constructor, destructor, operator overloading (+, -, <, <<), rule of three)
+- [ ] **Mission 18: RPG Character Class Hierarchy** (inheritance, polymorphism, virtual destructor)
+- [ ] **Mission 19: Account Encapsulation Guard** (access specifiers, invariants, deep copy mechanics)
+- [ ] **Mission 20: Class Memory Layout Auditor** (`sizeof`, `offsetof`, struct padding, compiler alignment)
 
 ---
 
 ### 📂 Phase 4: Virtual Functions & `vtable` Architecture — ⚪ Not Started
-Deep-diving into dynamic dispatch, Virtual Method Tables, and how compiler polymorphism translates to assembly.
+*Dynamic dispatch internals — how polymorphism translates to assembly and Ghidra output.*
 
-- [ ] **Mission 19: Virtual Animal Sound Polymorphism** (Setting up polymorphic interfaces and virtual destructor sequences)
-- [ ] **Mission 20: Manual C-Style `vtable` Simulation** (Manually recreating dynamic dispatch using struct-embedded function pointer arrays, mirroring compiled Ghidra assembly outputs)
-
----
-
-### 📂 Phase 5: Standard Template Library (STL) & Containers Analysis — ⚪ Not Started
-Analyzing standard data structure architectures and safe memory scopes.
-
-- [ ] **Mission 21: Key-Value Encrypted Locker** (Building an in-memory secure vault using `std::map`)
-- [ ] **Mission 22: STL Vector Growth Inspector** (Monitoring the dynamic reallocation and capacity-doubling mechanics of standard vectors)
-- [ ] **Mission 23: Custom Unique Pointer (`MyUniquePtr`)** (Implementing an RAII-compliant smart pointer wrapper to prevent double-free bugs)
+- [ ] **Mission 21: Virtual Animal Sound Polymorphism** (pure virtual, override, virtual destructor chain)
+- [ ] **Mission 22: Manual C-Style `vtable` Simulation** (struct with function pointer arrays, mirroring compiled Ghidra vtable output — direct RE prep)
 
 ---
 
-### 📂 Phase 6: Multi-File Projects, CMake & Compilation Stages — ⚪ Not Started
-Working with header files, compilers, dynamic/static linkers, and professional build configurations.
+### 📂 Phase 5: Modern C++ — Move Semantics, Templates & Lambdas — ⚪ Not Started
+*The most skipped, most important phase. Required before any real-world C++ codebase.*
 
-- [ ] **Mission 24: Header-Source Separation Project** (Organizing source code across multiple `.h` and `.cpp` modules)
-- [ ] **Mission 25: CMake Multi-Target Library** (Building a CMake structure that compiles static libraries and links them into executables)
-
----
-
-### 📂 Phase 7: System Programming & Operating System APIs — ⚪ Not Started
-Interfacing directly with kernel/system-level boundaries via APIs to understand OS execution contexts.
-
-- [ ] **Mission 26: Process Inspector** (Querying system processes, listing active Process IDs (PIDs), and scanning handle maps)
-- [ ] **Mission 27: Multi-Threaded Prime Generator** (Spawning concurrent threads using `std::thread` and resolving race conditions with mutexes)
+- [ ] **Mission 23: Custom String Class — Rule of Five** (copy ctor, move ctor, copy/move assignment, destructor, noexcept, `std::move`)
+- [ ] **Mission 24: Smart Pointers & RAII** (`unique_ptr`, `shared_ptr`, `make_unique`, resource ownership transfer)
+- [ ] **Mission 25: Template Stack & Queue** (class templates, `typename`, template instantiation model)
+- [ ] **Mission 26: Event System — Lambdas & std::function** (lambda capture semantics, `std::function`, type erasure, observer pattern)
 
 ---
 
-### 📂 Phase 8: Secure Coding & Vulnerability Analysis — ⚪ Not Started
-Investigating classic memory safety bugs from both defensive and binary exploit-development angles.
+### 📂 Phase 6: STL & Containers — ⚪ Not Started
+*Standard data structure internals and safe memory scopes.*
 
-- [ ] **Mission 28: Buffer Overflow Sandbox** (Simulating stack overflow vulnerabilities in controlled buffer scopes, then patching with boundary-checked functions)
-- [ ] **Mission 29: Integer Wrap-Around Investigator** (Demonstrating how unexpected integer overflows bypass safety check logic)
-
----
-
-### 📂 Phase 9: DLL Injection & API Hooking (Function Detours) — ⚪ Not Started
-Writing dynamic runtime injectors, modifying target process control flows, and hijacking program execution.
-
-- [ ] **Mission 30: Custom Dynamic Library (DLL)** (Building an exportable dynamic library that pops thread-specific message boxes upon attachment)
-- [ ] **Mission 31: API Trampoline Detour** (Writing an inline memory patcher that redirects target execution streams via a raw assembly `JMP` override)
+- [ ] **Mission 27: Key-Value Encrypted Locker** (`std::map`, ordered traversal, iterator usage)
+- [ ] **Mission 28: STL Vector Growth Inspector** (capacity doubling mechanics, reallocation triggers, iterator invalidation)
+- [ ] **Mission 29: Word Frequency Counter** (`std::unordered_map`, custom comparator, lambda-based sort)
 
 ---
 
-### 📂 Phase 10: Memory Scanning & Capstone Project — ⚪ Not Started
-Unifying all components to develop a functional systems-level memory manipulation utility.
+### 📂 Phase 7: Multi-File Projects & CMake — ⚪ Not Started
+*Professional build structure — header/source separation, static libraries, linker stages.*
 
-- [ ] **Mission 32: The Memory Scanner (Cheat Engine Mini)** (An advanced systems utility that attaches to external processes, scans virtual memory ranges for dynamic 4-byte integers, filters matches, and modifies the targeted address values in real-time)
+- [ ] **Mission 30: Header-Source Separation** (include guards, forward declarations, .h/.cpp split)
+- [ ] **Mission 31: CMake Multi-Target Library** (CMakeLists.txt, static library build, target_link_libraries)
+
+---
+
+### 📂 Phase 8: Concurrency & System Programming — ⚪ Not Started
+*OS-level APIs, thread management, lock-free data structures.*
+
+- [ ] **Mission 32: Process Inspector** (querying PIDs, listing active handles, OS process APIs)
+- [ ] **Mission 33: Multi-Threaded Prime Generator** (`std::thread`, `std::mutex`, `condition_variable`, race condition detection)
+- [ ] **Mission 34: Thread Pool + Future** (`std::future`, `std::promise`, lambda task dispatch, exception propagation)
+- [ ] **Mission 35: Lock-Free SPSC Queue** (`std::atomic`, memory ordering — relaxed / acquire / release / seq_cst)
+
+---
+
+### 📂 Phase 9: Binary Analysis & Low-Level Tools — ⚪ Not Started
+*Build the tools RE professionals use daily — from scratch. Understand Ghidra from the inside.*
+
+- [ ] **Mission 36: Hex Dump Tool** (binary file I/O, byte-level formatting, endianness, xxd clone)
+- [ ] **Mission 37: ELF Parser** (section headers, program headers, symbol tables, string tables — raw binary struct mapping)
+- [ ] **Mission 38: RISC-V Disassembler** (bit-field extraction, R/I/S/B-type decoding — bridges assembly coursework directly to RE)
+- [ ] **Mission 39: Mini Bytecode VM** (custom opcode set, stack/register dispatch, execution loop — understand VM-based obfuscation)
+
+---
+
+### 📂 Phase 10: Secure Coding & Vulnerability Analysis — ⚪ Not Started
+*Classic memory safety bugs from both defensive and exploit-development angles.*
+
+- [ ] **Mission 40: Custom Memory Allocator — Arena & Pool** (placement new, alignment, free-list — heap internals from scratch, RE prerequisite)
+- [ ] **Mission 41: Buffer Overflow Sandbox** (stack smashing simulation in controlled scope, boundary-checked patching)
+- [ ] **Mission 42: Integer Wrap-Around Investigator** (unsigned overflow, signed UB, how safety checks get bypassed)
+
+---
+
+### 📂 Phase 11: DLL Injection & API Hooking — ⚪ Not Started
+*Runtime code injection, execution flow hijacking, function detours.*
+
+- [ ] **Mission 43: Custom Dynamic Library (DLL)** (exported symbols, DllMain attachment, thread-specific message injection)
+- [ ] **Mission 44: API Trampoline Detour** (inline memory patcher, raw assembly JMP override, redirecting execution streams)
+
+---
+
+### 📂 Phase 12: Capstone — ⚪ Not Started
+*Everything comes together.*
+
+- [ ] **Mission 45: Memory Scanner — Cheat Engine Mini** (process attachment, virtual memory range scan, real-time 4-byte value modification)
+- [ ] **Mission 46: Tiny Language Interpreter** (lexer → parser → AST → tree-walking interpreter — compiler internals, design patterns, Visitor)
