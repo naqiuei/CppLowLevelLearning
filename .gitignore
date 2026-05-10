@@ -1,0 +1,11 @@
+# Compiled binaries and executables
+*.exe
+*.o
+*.obj
+*.out
+
+# IDE and runner specific files
+.vscode/
+build/
+bin/
+out/
