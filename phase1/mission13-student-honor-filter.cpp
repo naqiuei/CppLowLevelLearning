@@ -18,6 +18,7 @@ int main() {
     if (gpa >= 3.5)
       fileo << name << " " << gpa << "\n";
   }
-
+  file.close();
+  fileo.close();
   std::cout << "honor-students.txt created.\n";
 }
