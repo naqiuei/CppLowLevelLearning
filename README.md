@@ -11,7 +11,7 @@ This curriculum is structured to bridge the gap between high-level development a
 
 ## 🗺️ The 12-Phase Low-Level Curriculum (46 Missions Tracker)
 
-### 📂 Phase 1: Basics & Control Flows — 🟢 91% Completed
+### 📂 Phase 1: Basics & Control Flows — 🟢 100% Completed
 *Standard I/O, conditionals, nested loops, modular arithmetic, input validation.*
 
 - [x] **Mission 1: Hello & Input** (Basic I/O, `std::string`, terminal build)
@@ -25,7 +25,7 @@ This curriculum is structured to bridge the gap between high-level development a
 - [x] **Mission 9: FizzBuzz** (modular logic, condition ordering)
 - [x] **Mission 10: Star Pyramid** (nested loops, centering formula 2i-1)
 - [x] **Mission 11: Rock-Paper-Scissors** (`enum class`, `static_cast`, `mt19937`)
-- [ ] **Mission 12: Word/Line Counter** (`std::ifstream`, `std::getline`, file parsing)
+- [x] **Mission 12: Word/Line Counter** (`std::ifstream`, `std::getline`, file parsing)
 
 ---
 
