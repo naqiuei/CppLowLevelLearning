@@ -26,7 +26,7 @@ This curriculum is structured to bridge the gap between high-level development a
 - [x] **Mission 10: Star Pyramid** (nested loops, centering formula 2i-1)
 - [x] **Mission 11: Rock-Paper-Scissors** (`enum class`, `static_cast`, `mt19937`)
 - [x] **Mission 12: Word/Line Counter** (`std::ifstream`, `std::getline`, file parsing)
-- [ ] **Mission 13: Student Honor Filter** (`std::ifstream` + `std::ofstream`, structured text parsing, conditional file write)
+- [x] **Mission 13: Student Honor Filter** (`std::ifstream` + `std::ofstream`, structured text parsing, conditional file write)
 - [ ] **Mission 14: Binary File Inspector** (`std::ios::binary`, `f.read()`, `seekg()`, `tellg()`, `reinterpret_cast<char*>`, binary struct reading)
 - [ ] **Mission 15: Fixed-Record Database** (`std::fstream` read/write, `seekg`/`seekp`, `std::ios::beg/cur/end`, `tellg()`, random access, fixed-record format)
 

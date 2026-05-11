@@ -1,0 +1,4 @@
+Ahmet 3.2
+Mehmet 3.8
+Ayşe 3.9
+Fatma 2.5
