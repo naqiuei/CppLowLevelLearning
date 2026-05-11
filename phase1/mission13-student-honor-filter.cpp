@@ -7,7 +7,7 @@ int main() {
       "honor-students.txt"); // if you want to add more txt files with that you
                              // can use std::ios::app for ex : std::ofstream
                              // fileo("honor-students.txt", std::ios::app);
-  if (!file.is_open() && !fileo.is_open()) {
+  if (!file.is_open() || !fileo.is_open()) {
     std::cout << "Error couldn't open the file.";
     return 1;
   }
