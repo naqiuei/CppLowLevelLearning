@@ -9,7 +9,7 @@ This curriculum is structured to bridge the gap between high-level development a
 
 ---
 
-## 🗺️ The 12-Phase Low-Level Curriculum (49 Missions Tracker)
+## 🗺️ The 12-Phase Low-Level Curriculum (50 Missions Tracker)
 
 ### 📂 Phase 1: Basics & Control Flows — 🟢 In Progress
 *Standard I/O, conditionals, nested loops, modular arithmetic, input validation, file I/O.*
@@ -65,67 +65,68 @@ This curriculum is structured to bridge the gap between high-level development a
 
 - [ ] **Mission 26: Custom String Class — Rule of Five** (copy ctor, move ctor, copy/move assignment, destructor, noexcept, `std::move`)
 - [ ] **Mission 27: Smart Pointers & RAII** (`unique_ptr`, `shared_ptr`, `make_unique`, resource ownership transfer)
-- [ ] **Mission 28: Template Stack & Queue** (class templates, `typename`, template instantiation model)
-- [ ] **Mission 29: Event System — Lambdas & std::function** (lambda capture semantics, `std::function`, type erasure, observer pattern)
+- [ ] **Mission 28: Exception Handling & Stack Unwinding** (`try`, `catch`, `throw`, `<stdexcept>`, custom exception classes, exception safety guarantees)
+- [ ] **Mission 29: Template Stack & Queue** (class templates, `typename`, template instantiation model)
+- [ ] **Mission 30: Event System — Lambdas & std::function** (lambda capture semantics, `std::function`, type erasure, observer pattern)
 
 ---
 
 ### 📂 Phase 6: STL & Containers — ⚪ Not Started
 *Standard data structure internals and safe memory scopes.*
 
-- [ ] **Mission 30: Key-Value Encrypted Locker** (`std::map`, ordered traversal, iterator usage)
-- [ ] **Mission 31: STL Vector Growth Inspector** (capacity doubling mechanics, reallocation triggers, iterator invalidation)
-- [ ] **Mission 32: Word Frequency Counter** (`std::unordered_map`, custom comparator, lambda-based sort)
+- [ ] **Mission 31: Key-Value Encrypted Locker** (`std::map`, ordered traversal, iterator usage)
+- [ ] **Mission 32: STL Vector Growth Inspector** (capacity doubling mechanics, reallocation triggers, iterator invalidation)
+- [ ] **Mission 33: Word Frequency Counter** (`std::unordered_map`, custom comparator, lambda-based sort)
 
 ---
 
 ### 📂 Phase 7: Multi-File Projects & CMake — ⚪ Not Started
 *Professional build structure — header/source separation, static libraries, linker stages.*
 
-- [ ] **Mission 33: Header-Source Separation** (include guards, forward declarations, .h/.cpp split)
-- [ ] **Mission 34: CMake Multi-Target Library** (CMakeLists.txt, static library build, target_link_libraries)
+- [ ] **Mission 34: Header-Source Separation** (include guards, forward declarations, .h/.cpp split)
+- [ ] **Mission 35: CMake Multi-Target Library** (CMakeLists.txt, static library build, target_link_libraries)
 
 ---
 
 ### 📂 Phase 8: Concurrency & System Programming — ⚪ Not Started
 *OS-level APIs, thread management, lock-free data structures.*
 
-- [ ] **Mission 35: Process Inspector** (querying PIDs, listing active handles, OS process APIs)
-- [ ] **Mission 36: Multi-Threaded Prime Generator** (`std::thread`, `std::mutex`, `condition_variable`, race condition detection)
-- [ ] **Mission 37: Thread Pool + Future** (`std::future`, `std::promise`, lambda task dispatch, exception propagation)
-- [ ] **Mission 38: Lock-Free SPSC Queue** (`std::atomic`, memory ordering — relaxed / acquire / release / seq_cst)
+- [ ] **Mission 36: Process Inspector** (querying PIDs, listing active handles, OS process APIs)
+- [ ] **Mission 37: Multi-Threaded Prime Generator** (`std::thread`, `std::mutex`, `condition_variable`, race condition detection)
+- [ ] **Mission 38: Thread Pool + Future** (`std::future`, `std::promise`, lambda task dispatch, exception propagation)
+- [ ] **Mission 39: Lock-Free SPSC Queue** (`std::atomic`, memory ordering — relaxed / acquire / release / seq_cst)
 
 ---
 
 ### 📂 Phase 9: Binary Analysis & Low-Level Tools — ⚪ Not Started
 *Build the tools RE professionals use daily — from scratch. Understand Ghidra from the inside.*
 
-- [ ] **Mission 39: Hex Dump Tool** (binary file I/O, byte-level formatting, endianness, xxd clone)
-- [ ] **Mission 40: ELF Parser** (section headers, program headers, symbol tables, string tables — raw binary struct mapping)
-- [ ] **Mission 41: RISC-V Disassembler** (bit-field extraction, R/I/S/B-type decoding — bridges assembly coursework directly to RE)
-- [ ] **Mission 42: Mini Bytecode VM** (custom opcode set, stack/register dispatch, execution loop — understand VM-based obfuscation)
+- [ ] **Mission 40: Hex Dump Tool** (binary file I/O, byte-level formatting, endianness, xxd clone)
+- [ ] **Mission 41: ELF Parser** (section headers, program headers, symbol tables, string tables — raw binary struct mapping)
+- [ ] **Mission 42: RISC-V Disassembler** (bit-field extraction, R/I/S/B-type decoding — bridges assembly coursework directly to RE)
+- [ ] **Mission 43: Mini Bytecode VM** (custom opcode set, stack/register dispatch, execution loop — understand VM-based obfuscation)
 
 ---
 
 ### 📂 Phase 10: Secure Coding & Vulnerability Analysis — ⚪ Not Started
 *Classic memory safety bugs from both defensive and exploit-development angles.*
 
-- [ ] **Mission 43: Custom Memory Allocator — Arena & Pool** (placement new, alignment, free-list — heap internals from scratch, RE prerequisite)
-- [ ] **Mission 44: Buffer Overflow Sandbox** (stack smashing simulation in controlled scope, boundary-checked patching)
-- [ ] **Mission 45: Integer Wrap-Around Investigator** (unsigned overflow, signed UB, how safety checks get bypassed)
+- [ ] **Mission 44: Custom Memory Allocator — Arena & Pool** (placement new, alignment, free-list — heap internals from scratch, RE prerequisite)
+- [ ] **Mission 45: Buffer Overflow Sandbox** (stack smashing simulation in controlled scope, boundary-checked patching)
+- [ ] **Mission 46: Integer Wrap-Around Investigator** (unsigned overflow, signed UB, how safety checks get bypassed)
 
 ---
 
 ### 📂 Phase 11: DLL Injection & API Hooking — ⚪ Not Started
 *Runtime code injection, execution flow hijacking, function detours.*
 
-- [ ] **Mission 46: Custom Dynamic Library (DLL)** (exported symbols, DllMain attachment, thread-specific message injection)
-- [ ] **Mission 47: API Trampoline Detour** (inline memory patcher, raw assembly JMP override, redirecting execution streams)
+- [ ] **Mission 47: Custom Dynamic Library (DLL)** (exported symbols, DllMain attachment, thread-specific message injection)
+- [ ] **Mission 48: API Trampoline Detour** (inline memory patcher, raw assembly JMP override, redirecting execution streams)
 
 ---
 
 ### 📂 Phase 12: Capstone — ⚪ Not Started
 *Everything comes together.*
 
-- [ ] **Mission 48: Memory Scanner — Cheat Engine Mini** (process attachment, virtual memory range scan, real-time 4-byte value modification)
-- [ ] **Mission 49: Tiny Language Interpreter** (lexer → parser → AST → tree-walking interpreter — compiler internals, design patterns, Visitor)
+- [ ] **Mission 49: Memory Scanner — Cheat Engine Mini** (process attachment, virtual memory range scan, real-time 4-byte value modification)
+- [ ] **Mission 50: Tiny Language Interpreter** (lexer → parser → AST → tree-walking interpreter — compiler internals, design patterns, Visitor)
