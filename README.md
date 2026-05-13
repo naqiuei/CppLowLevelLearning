@@ -11,7 +11,7 @@ This curriculum is structured to bridge the gap between high-level development a
 
 ## 🗺️ The 12-Phase Low-Level Curriculum (50 Missions Tracker)
 
-### 📂 Phase 1: Basics & Control Flows — 🟢 In Progress
+### 📂 Phase 1: Basics & Control Flows — ✅ Completed
 *Standard I/O, conditionals, nested loops, modular arithmetic, input validation, file I/O.*
 
 - [x] **Mission 1: Hello & Input** (Basic I/O, `std::string`, terminal build)
@@ -28,11 +28,11 @@ This curriculum is structured to bridge the gap between high-level development a
 - [x] **Mission 12: Word/Line Counter** (`std::ifstream`, `std::getline`, file parsing)
 - [x] **Mission 13: Student Honor Filter** (`std::ifstream` + `std::ofstream`, structured text parsing, conditional file write)
 - [x] **Mission 14: Binary File Inspector** (`std::ios::binary`, `f.read()`, `seekg()`, `tellg()`, `reinterpret_cast<char*>`, binary struct reading)
-- [ ] **Mission 15: Fixed-Record Database** (`std::fstream` read/write, `seekg`/`seekp`, `std::ios::beg/cur/end`, `tellg()`, random access, fixed-record format)
+- [x] **Mission 15: Fixed-Record Database** (`std::fstream` read/write, `seekg`/`seekp`, `std::ios::beg/cur/end`, `tellg()`, random access, fixed-record format)
 
 ---
 
-### 📂 Phase 2: Pointers, References & Memory Management — ⚪ Not Started
+### 📂 Phase 2: Pointers, References & Memory Management — 🟢 In Progress
 *Physical memory addresses, stack vs. heap allocation, raw pointer ownership.*
 
 - [ ] **Mission 16: Pointer Swap & Mutators** (pointer dereferencing, pass-by-pointer vs pass-by-reference)
