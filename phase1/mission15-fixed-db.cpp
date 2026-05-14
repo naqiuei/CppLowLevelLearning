@@ -15,11 +15,11 @@ void add(std::fstream &file, student x) {
 
 void show(std::fstream &file, int x) {
   file.seekg((x - 1) * sizeof(student)); // I made it x - 1 because otherwise
-                                         // output is going to have +1 index.
+                                         // output is going to had +1 index.
   student s;
   file.read(reinterpret_cast<char *>(&s), sizeof(student));
-  std::cout << "Student Name : " << s.name << "\nStudent gpa : " << s.gpa
-            << "\n";
+  std::cout << "\n------------------\nStudent Name : " << s.name
+            << "\nStudent gpa : " << s.gpa << "\n------------------\n";
   file.clear();
 }
 
@@ -84,13 +84,14 @@ int main() {
   student s;
   int selection{};
   while (true) {
-    std::cout << "\tChoose an operation :\n"
-                 "\t1-Add a new student.\n"
-                 "\t2-Show the list.\n"
-                 "\t3-Show a spesific student.\n"
-                 "\t4-Update a student.\n"
-                 "\t5-For exit.\n"
-                 "\tEnter your selection : ";
+    std::cout << "------------------\n"
+                 "Choose an operation :\n"
+                 "1-Add a new student.\n"
+                 "2-Show the list.\n"
+                 "3-Show a spesific student.\n"
+                 "4-Update a student.\n"
+                 "5-For exit.\n"
+                 "Enter your selection : ";
     std::cin >> selection;
     if (selection == 1) {
       std::cout << "Enter student name : ";
