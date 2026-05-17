@@ -32,17 +32,17 @@ This curriculum is structured to bridge the gap between high-level development a
 
 ---
 
-### 📂 Phase 2: Pointers, References & Memory Management — 🟢 In Progress
+### 📂 Phase 2: Pointers, References & Memory Management — ✅ Completed
 *Physical memory addresses, stack vs. heap allocation, raw pointer ownership.*
 
 - [x] **Mission 16: Pointer Swap & Mutators** (pointer dereferencing, pass-by-pointer vs pass-by-reference)
 - [x] **Mission 17: Dynamic Array Allocator** (`new[]`, `delete[]`, runtime sizing, reallocation)
 - [x] **Mission 18: Memory Leak Finder Simulator** (intentional heap leaks, AddressSanitizer, Valgrind)
-- [ ] **Mission 19: Linked List — Single & Double** (raw pointer chaining, manual node cleanup, ownership)
+- [x] **Mission 19: Linked List — Single & Double** (raw pointer chaining, manual node cleanup, ownership)
 
 ---
 
-### 📂 Phase 3: Object-Oriented Programming & Memory Layout — ⚪ Not Started
+### 📂 Phase 3: Object-Oriented Programming & Memory Layout — 🟢 In Progress
 *Class design, encapsulation, operator overloading, physical struct layout in RAM.*
 
 - [ ] **Mission 20: Date/Time Class** (constructor, destructor, operator overloading (+, -, <, <<), rule of three)
