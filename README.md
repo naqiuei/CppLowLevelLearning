@@ -36,7 +36,7 @@ This curriculum is structured to bridge the gap between high-level development a
 *Physical memory addresses, stack vs. heap allocation, raw pointer ownership.*
 
 - [x] **Mission 16: Pointer Swap & Mutators** (pointer dereferencing, pass-by-pointer vs pass-by-reference)
-- [ ] **Mission 17: Dynamic Array Allocator** (`new[]`, `delete[]`, runtime sizing, reallocation)
+- [x] **Mission 17: Dynamic Array Allocator** (`new[]`, `delete[]`, runtime sizing, reallocation)
 - [ ] **Mission 18: Memory Leak Finder Simulator** (intentional heap leaks, AddressSanitizer, Valgrind)
 - [ ] **Mission 19: Linked List — Single & Double** (raw pointer chaining, manual node cleanup, ownership)
 
