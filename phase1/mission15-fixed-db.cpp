@@ -15,7 +15,7 @@ void add(std::fstream &file, student x) {
 
 void show(std::fstream &file, int x) {
   file.seekg((x - 1) * sizeof(student)); // I made it x - 1 because otherwise
-                                         // output is going to had +1 index.
+                                         // output was going to have +1 index.
   student s;
   file.read(reinterpret_cast<char *>(&s), sizeof(student));
   std::cout << "\n------------------\nStudent Name : " << s.name
