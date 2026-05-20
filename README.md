@@ -47,7 +47,7 @@ This curriculum is structured to bridge the gap between high-level development a
 
 - [x] **Mission 20: Date/Time Class** (constructor, destructor, operator overloading (+, -, <, <<), rule of three)
 - [x] **Mission 21: RPG Character Class Hierarchy** (inheritance, polymorphism, virtual destructor)
-- [ ] **Mission 22: Account Encapsulation Guard** (access specifiers, invariants, deep copy mechanics)
+- [x] **Mission 22: Account Encapsulation Guard** (access specifiers, invariants, deep copy mechanics)
 - [ ] **Mission 23: Class Memory Layout Auditor** (`sizeof`, `offsetof`, struct padding, compiler alignment)
 
 ---
