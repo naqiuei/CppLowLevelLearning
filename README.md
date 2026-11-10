@@ -52,10 +52,10 @@ This curriculum is structured to bridge the gap between high-level development a
 
 ---
 
-### 📂 Phase 4: Virtual Functions & `vtable` Architecture — ⚪ Not Started
+### 📂 Phase 4: Virtual Functions & `vtable` Architecture — 🟢 In Progress
 *Dynamic dispatch internals — how polymorphism translates to assembly and Ghidra output.*
 
-- [ ] **Mission 24: Virtual Animal Sound Polymorphism** (pure virtual, override, virtual destructor chain)
+- [x] **Mission 24: Virtual Animal Sound Polymorphism** (pure virtual, override, virtual destructor chain)
 - [ ] **Mission 25: Manual C-Style `vtable` Simulation** (struct with function pointer arrays, mirroring compiled Ghidra vtable output — direct RE prep)
 
 ---
